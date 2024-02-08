@@ -1,13 +1,13 @@
 import { styled } from '@/styled-system/jsx';
 
-export const GlobalNavigationBarDesktop = () => {
-  return <Container>123</Container>;
+export const GlobalNavigationBarMobile = () => {
+  return <Container>mobile gnb</Container>;
 };
 
 const Container = styled('div', {
   base: {
     position: 'sticky',
-    display: { base: 'none', md: 'flex' },
+    display: { base: 'flex', md: 'none' },
     top: 0,
     left: 0,
     zIndex: 1,

@@ -4,9 +4,13 @@ export default defineConfig({
   jsxFramework: 'react',
   // Whether to use css reset
   preflight: true,
-  utilities: {},
+
   // Where to look for your css declarations
-  include: ['./src/**/*.{js,jsx,ts,tsx}', './pages/**/*.{js,jsx,ts,tsx}'],
+  include: [
+    './pages/**/*.{js,jsx,ts,tsx}',
+    './pages-src/**/*.{js,jsx,ts,tsx}',
+    './shared/**/*.{js,jsx,ts,tsx}',
+  ],
 
   // Files to exclude
   exclude: [],
